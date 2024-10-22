@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3941630666346708"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="rmndapr.png" type="image/x-icon" />
+    <style>
+        :root {
+            --primary-color: #111317;
+            --primary-color-light: #1f2125;
+            --primary-color-extra-light: #35373b;
+            --secondary-color: #1fdd63;
+            --secondary-color-dark: #1fdd63;
+            --text-light: #d1d5db;
+            --white: #ffffff;
+            --max-width: 1200px;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--primary-color);
+            color: var(--text-light);
+        }
+
+        .section__container {
+            max-width: var(--max-width);
+            margin: auto;
+            padding: 5rem 1rem;
+        }
+
+        .section__header {
+            margin-bottom: 1rem;
+            font-size: 2.25rem;
+            font-weight: 600;
+            text-align: center;
+            color: var(--secondary-color);
+        }
+
+        .privacy__content {
+            max-width: 800px;
+            margin: auto;
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .privacy__section {
+            margin-bottom: 2rem;
+        }
+
+        .privacy__title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .privacy__text {
+            color: var(--text-light);
+        }
+
+        .privacy__text span {
+            color: var(--secondary-color);
+        }
+    </style>
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="section__container">
+        <h2 class="section__header">If you want to chat on WhatsApp,</h2>
+        <h2 class="section__header">please email first or contact me below</h2>
+        <div class="privacy__content">
+            <p class="privacy__text">Due to privacy concerns, we kindly ask that you email us first before initiating a conversation on WhatsApp. This helps us ensure that your privacy and security are maintained to the best of our ability.</p>
+            <p style="color: #111317;">txt</p>
+
+        </div>
+        <div class="contact-box">
+            <h2 style="color: #1fdd63;">Contact Me</h2>
+            <form id="contactForm" action="https://formsubmit.co/ramandaputra0104@gmail.com" method="POST" onsubmit="return emailSend()">
+              <label for="email" style="color: #f1f1f1;">Email:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="subject" style="color: #f1f1f1;">Subject:</label>
+              <input type="text" id="subject" name="subject" required>
+          
+              <label for="number" style="color: #f1f1f1;">Your Number:</label>
+              <input type="text" id="number" name="number" required>
+          
+              <label for="message" style="color: #f1f1f1;">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          
+              <button type="submit">Send Message</button>
+            </form>
+          </div>          
+              </form>
+              <style>
+                .contact-box {
+                    width: 90%; /* Adjust width to fit smaller screens */
+                    margin: auto;
+                    padding: 20px;
+                    border: 1px solid #1fdd63;
+                    border-radius: 8px;
+                }
+            
+                .contact-box label {
+                    display: block;
+                    margin-bottom: 8px;
+                    color: #f1f1f1; /* Adjust label color */
+                }
+            
+                .contact-box input, .contact-box textarea {
+                    width: 100%;
+                    padding: 8px;
+                    margin-bottom: 12px;
+                    box-sizing: border-box;
+                }
+            
+                .contact-box button {
+                    width: 100%;
+                    background-color: #1fdd63;
+                    color: white;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            
+                /* Media query for mobile */
+                @media screen and (max-width: 768px) {
+                    .contact-box {
+                        width: 90%; /* Adjust width to fit smaller screens */
+                        padding: 15px; /* Adjust padding for smaller screens */
+                    }
+                }
+            </style>  
+    </div>
+</body>
+
+</html>
