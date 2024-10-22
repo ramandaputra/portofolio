@@ -142,10 +142,10 @@ nav {
 }
 
 .header__container::before {
-  content: "PTRARMND";
+  content: "WELCOME";
   position: absolute;
   bottom: 5rem;
-  right: 25rem;
+  right: 15rem;
   font-size: 5rem;
   font-weight: 700;
   line-height: 7rem;
